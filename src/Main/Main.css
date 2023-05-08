@@ -1,0 +1,134 @@
+.main_Container {
+  height: 3650px;
+  width: auto;
+  margin: 0px auto;
+}
+.header_Container {
+  height: 136px;
+  width: auto;
+  background: #5964e0;
+  margin: 0px auto;
+}
+.header_Content_Box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 32px;
+  width: 350px;
+  margin: 22px auto;
+}
+.header_Content_Text {
+  color: white;
+  font-family: "Roboto";
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+.header_Switch_Box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 24px;
+  width: 112px;
+  left: 239px;
+  top: 36px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  height: 24px;
+  width: 48px;
+
+  border-radius: 12px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 12px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.filter_Container {
+  height: 80px;
+  width: 327px;
+  margin: -40px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 6px;
+
+  background: #ffffff;
+}
+.filter_Input {
+  height: 16px;
+  width: 105px;
+  margin-left: 24px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #19202d;
+}
+.moreFilter {
+  height: 20.000001907348633px;
+  width: 19.967607498168945px;
+  margin-left: 90px;
+}
+.searchButton {
+  height: 48px;
+  width: 48px;
+  margin-left: 24px;
+}
+.searchButton:hover {
+  cursor: pointer;
+}
+.searchButton:active {
+  background: #e5e5e5;
+}

@@ -1,0 +1,105 @@
+.content_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: auto;
+  margin: 90px auto;
+}
+.content_Box {
+  position: relative;
+  height: 253px;
+  width: 327px;
+}
+.companylogo {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin: -25px 32px;
+}
+.content_Content_SubBox {
+  height: 147px;
+  width: 286px;
+  margin: 49px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 10px;
+}
+.content_Content_Header_Content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.content_Time_Added {
+  display: inline-block;
+  height: 20px;
+  width: 51px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e8098;
+}
+
+.content_Dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 50px;
+  background: #6e8098;
+}
+
+.content_Job_Type {
+  display: inline-block;
+  height: 20px;
+  width: 68px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e8098;
+}
+
+.content_Position {
+  display: inline-block;
+  height: 25px;
+  width: auto;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 5px;
+}
+.content_Company_Name {
+  display: inline-block;
+  height: 16px;
+  width: 43px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e8098;
+}
+.content_country {
+  display: inline-block;
+  height: 14px;
+  width: 286px;
+  margin-top: 25px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5964e0;
+}
