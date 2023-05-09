@@ -2,7 +2,6 @@ import "./Content.css";
 import data from "../data.json";
 
 const Content = () => {
-  console.log(data);
   return (
     <div className="content_Container">
       {data.map((job) => (

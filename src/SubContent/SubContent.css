@@ -1,0 +1,321 @@
+.subContent_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100% !important;
+  background: #f2f2f2;
+}
+.subContent_Header_Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 230px;
+  width: 327px;
+  margin-top: -12px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+.subContent_Company_Logo {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin: -25px 139px;
+}
+.subContent_Company_NameWeb_Box {
+  height: 52px;
+  width: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  margin-top: 49px;
+}
+
+.subContent_Company_Name {
+  height: 20px;
+  width: 55px;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #19202d;
+}
+.subContent_Company_Website {
+  height: 20px;
+  width: 76px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #6e8098;
+}
+.subContent_Company_Website_Button {
+  height: 48px;
+  width: 147px;
+  margin-top: 24px;
+  mix-blend-mode: normal;
+
+  background: #b6bae1;
+  border-radius: 5px;
+  border-style: none;
+}
+.subContent_Company_Website_Button_Text {
+  font-family: "Kumbh Sans";
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #5964e0;
+}
+.subcontent_company_website_button:hover {
+  background: #5964e0;
+  color: #b6bae1;
+  cursor: pointer;
+}
+.subContent_Company_SubContainet {
+  height: 2421px;
+  width: 327px;
+  background: #ffffff;
+  border-radius: 6px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subContent_Company_SubContainet_Info_Box {
+  height: 77px;
+  width: 279px;
+  margin: 40px auto;
+}
+.subContent_Company_SubContainet_Info_Box_HeaderBox {
+  height: 19px;
+  width: 172px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.subContent_Company_SubContainet_Info_Box_HeaderBox_TimeText {
+  height: 16px;
+  width: 80px;
+
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #6e8098;
+}
+.subContent_Company_SubContainet_Info_Box_HeaderBox_Dot {
+  height: 5px;
+  width: 5px;
+  background: #6e8098;
+  border-radius: 10px;
+}
+
+.subContent_Company_SubContainet_Info_Box_RoleTitle {
+  display: inline-block;
+  height: 20px;
+  width: 240px;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #19202d;
+  margin-top: 8px;
+}
+
+.subContent_Company_SubContainet_Info_Box_Location {
+  display: inline-block;
+  height: 17px;
+  width: 279px;
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5964e0;
+  margin-top: 7px;
+}
+
+.subContent_Button {
+  height: 48px;
+  width: 279px;
+  margin-top: 0px;
+  background: #5964e0;
+  border-style: none;
+  border-radius: 5px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+.subContent_Button:hover {
+  cursor: pointer;
+  background: #b6bae1;
+  color: #5964e0;
+  transition: all 0.3s ease-in-out;
+}
+.subContent_Button:active {
+  background: #b6bae1;
+  color: #5964e0;
+}
+.subContent_Job_Description {
+  height: auto !important;
+  width: 278px;
+  margin: 32px auto;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e8098;
+}
+.subContent_Job_Requirements_Box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 66px auto;
+  height: 386px;
+  width: 278px;
+  gap: 28px;
+}
+.subContent_Job_Requirements_Box_Header {
+  height: 25px;
+  width: 133px;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #19202d;
+}
+.subContent_Job_Requirements_Box_Text {
+  height: 338px;
+  width: 278px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e8098;
+}
+.subContent_Job_Requirements_Bullet_Points {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 8px;
+  height: 336px;
+  width: 278px;
+}
+.subContent_Job_Requirements_Bullet_Points_Text {
+  height: 52px;
+  width: 262px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e8098;
+}
+.subContent_Job_Description {
+  height: 360px;
+  width: 278px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.subContent_Job_Description_Header {
+  height: 25px;
+  width: 278px;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #19202d;
+}
+.subContent_Job_Description_Text {
+  height: 312px;
+  width: 278px;
+  margin: 23px auto;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e8098;
+}
+.subContent_Job_Description_List_Box {
+  height: 336px;
+  width: 278px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px !important;
+}
+.subContent_Job_Description_ListBox_Text {
+  height: 52px;
+  width: 242px;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6e8098;
+}
+
+.subContent_Apply_Button_Box {
+  height: 96px;
+  width: 375px;
+  margin-top: 64px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subContent_Apply_Button {
+  height: 48px;
+  width: 327px;
+  border-radius: 5px;
+  background: #5964e0;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+.subContent_Apply_Button:hover {
+  cursor: pointer;
+}
+.subContent_Apply_Button:active {
+  background: #b6bae1;
+  color: #5964e0;
+}

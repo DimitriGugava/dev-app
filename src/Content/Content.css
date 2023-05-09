@@ -82,6 +82,14 @@
   text-align: left;
   margin-top: 5px;
 }
+
+.content_Position:hover {
+  cursor: pointer;
+  color: #5964e0;
+}
+.content_Position:active {
+  font-size: 19.93px;
+}
 .content_Company_Name {
   display: inline-block;
   height: 16px;

@@ -4,6 +4,7 @@ import moon from "../icons/moon.svg";
 import MoreFilter from "../icons/morefilter.svg";
 import SearchButton from "../icons/searchbutton.svg";
 import Content from "../Content/Content";
+import SubContent from "../SubContent/SubContent";
 const Main = () => {
   return (
     <div className="main_Container">
@@ -20,7 +21,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <div className="filter_Container">
+      {/* <div className="filter_Container">
         <input
           type="text"
           className="filter_Input"
@@ -28,8 +29,9 @@ const Main = () => {
         />
         <img className="moreFilter" src={MoreFilter} />
         <img className="searchButton" src={SearchButton} />
-      </div>
-      <Content />
+      </div> */}
+      {/* <Content /> */}
+      <SubContent />
     </div>
   );
 };
