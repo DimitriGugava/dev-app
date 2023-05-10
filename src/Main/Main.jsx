@@ -4,8 +4,15 @@ import moon from "../icons/moon.svg";
 import MoreFilter from "../icons/morefilter.svg";
 import SearchButton from "../icons/searchbutton.svg";
 import Content from "../Content/Content";
-import SubContent from "../SubContent/SubContent";
+import { useState, useEffect } from "react";
+
 const Main = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
   return (
     <div className="main_Container">
       <div className="header_Container">
@@ -21,17 +28,19 @@ const Main = () => {
           </div>
         </div>
       </div>
-      {/* <div className="filter_Container">
+      <div className="filter_Container">
         <input
           type="text"
           className="filter_Input"
           placeholder="Filter by title"
+          value={searchTerm}
+          onChange={handleSearchChange}
         />
         <img className="moreFilter" src={MoreFilter} />
         <img className="searchButton" src={SearchButton} />
-      </div> */}
-      {/* <Content /> */}
-      <SubContent />
+      </div>
+      <Content searchTerm={searchTerm} />
+      {/* <SubContent /> */}
     </div>
   );
 };

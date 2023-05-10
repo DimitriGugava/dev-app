@@ -1,10 +1,14 @@
 import "./Content.css";
 import data from "../data.json";
 
-const Content = () => {
+const Content = ({ searchTerm }) => {
+  const filteredData = data.filter((job) =>
+    job.position.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="content_Container">
-      {data.map((job) => (
+      {filteredData.map((job) => (
         <div className="content_Box" key={job.id}>
           <img className="companylogo" src={job.logo} />
           <div className="content_Content_SubBox">
